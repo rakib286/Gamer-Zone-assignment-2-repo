@@ -139,7 +139,8 @@
     display: flex;
     align-items: center;
 }
-.main-section-2-right-side{
+
+.main-section-2-right-side {
     margin-right: 60px;
     text-align: right;
 }
@@ -199,4 +200,121 @@
     text-align: right;
     margin: 0%;
 }
+
 /* main section end */
+
+/* online games section start */
+.online-games-section {}
+
+.online-games-text {
+    color: #0B0223;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0%;
+    margin-top: 15px;
+}
+
+.funny-section {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.online-games-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0%;
+    margin-top: 7px;
+}
+
+.online-games-card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.online-games-card1 {
+    background-image: url("../images/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 370px;
+    border-radius: 16px;
+}
+
+.online-games-card2 {
+    background-image: url("../images/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 370px;
+    border-radius: 16px;
+}
+
+.online-games-card3 {
+    background-image: url("../images/Rectangle\ 0.png");
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 370px;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60));
+
+}
+
+.online-games-card4 {
+    background-image: url("../images/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 370px;
+    border-radius: 16px;
+
+}
+
+
+.online-games-section img {
+    position: relative;
+    top: 150px;
+    left: 120px;
+
+}
+
+.watch-now {
+    font-size: 18px;
+    font-weight: 700;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 140px;
+    left: 100px;
+}
+
+.online-games-img-description {
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    width: 265px;
+    margin-top: 400px;
+}
+
+.online-games-img-description3 {
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    width: 265px;
+    margin-top: 308px;
+}

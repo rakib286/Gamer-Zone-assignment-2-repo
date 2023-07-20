@@ -53,7 +53,6 @@
 .nav-content img {
     width: 20px;
     height: 25px;
-    flex-shrink: 0;
 }
 
 /* main section start */
@@ -396,11 +395,20 @@
     align-items: center;
     gap: 8px;
 }
+.logo-section-container p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 
+}
 .logo-section-container:hover {
     border: #F948B2;
     border-radius: 50px;
     color: #F948B2;
+    border: 1px solid;
+    cursor: pointer;
+
 }
 
 .logo-section-container img {
@@ -409,14 +417,7 @@
     border-radius: 50px;
 }
 
-.logo-section-container p {
-    color: #0B0223;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
 
-}
 
 .logo-section-second-row {
     display: flex;
